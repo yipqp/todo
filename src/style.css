@@ -100,7 +100,7 @@ main {
   background-color: var(--selected);
 }
 
-.projects {
+.project-list-container {
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -200,7 +200,7 @@ button {
   cursor: pointer;
 }
 
-.btn-edit {
+.edit-btn {
   margin-left: 10px;
   width: 1.5rem;
   height: 1.5rem;
@@ -297,10 +297,10 @@ select {
   border-radius: 7px;
 }
 
-.btn-add {
+.add-btn {
   background-color: var(--green);
 }
 
-.btn-cancel {
+.cancel-btn {
   background-color: var(--red);
 }
